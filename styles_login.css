@@ -1,0 +1,349 @@
+
+
+
+.box {
+	display: inline-block;
+	float: left;
+	border-radius:8px;
+	width: 300px;
+	padding:40px;
+	position: relative;
+	margin: 40px 0 40px 0;
+	margin-left: 15%;
+	margin-right: 50px;
+	background: #191919;
+	text-align: center;
+}
+
+.box input[type = "text"], .box input[type = "email"],.box input[type = "password"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #525252;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.box input[type = "text"]:focus,.box input[type = "email"]:focus, .box input[type = "password"]:focus{
+	width:280px;
+	border-color: #ffffff;
+}
+
+.box input[type= "submit"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #ffffff;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+.box input[type= "submit"]:hover{
+	border: 2px solid #ffffff;
+}
+
+.log{
+	display: inline-flex;
+	float: right;
+	margin-right: 17%;
+	margin-top: 1.5%;
+	flex-direction: column;
+}
+.log:hover{
+	filter: blur(1px);
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.log h4{
+	margin-top: 0;
+	text-align: center;
+}
+.log img{
+	width: 60px;
+	height: 60px;
+	filter: invert(100%);
+}
+
+.inline {
+	display: inline-block;
+}
+
+/*Para la cabecera*/
+header {
+	min-width: 475px;
+	min-height: 146px;
+	background-color: #141414;
+	width:100%;
+	margin: 0 auto;
+}
+.block{
+	display: inline-block;
+}
+
+.borde {
+	padding: 1.5%;
+	border-radius: 4px;
+}
+
+.logo {
+	float: left;
+	width: 77px;
+	height: 123px;
+	padding-right: 100px;
+	padding-left: 10%;
+	padding-top: 0.5px;
+	padding-bottom: 1%;
+	filter: brightness(85%);
+}
+
+.opciones li {
+	list-style: none;
+	padding: 8px;
+	display: inline-block;
+	background-color: #0f0f0f;
+	border-radius: 4px;
+	width: auto;
+	text-align: center;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.opciones li:hover {
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+	background-color: #555555;
+}
+
+.opciones li>a {
+	padding: 8px;
+}
+
+section {
+	margin-left: 15%;
+	width:50%;
+}
+
+a:link {
+	text-decoration: none;
+	color:whitesmoke;
+
+}
+a:visited {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+/*Para el body*/
+body {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	color: whitesmoke;
+	background-color: black;
+	height: 100%;
+}
+
+figure {
+	width: 158px;
+	height: 213px;
+}
+
+.agrupa {
+	width: 100%;
+	margin:auto;
+	align-items: center;
+}
+
+.container {
+	display: flex;
+	background-image: linear-gradient(to right, #000000, #161616, #000000);
+	background-image: -moz-linear-gradient(to right, #000000, #161616, #000000);
+}
+
+.center {
+	display: table;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.margenY {
+	margin-top: 1%;
+	margin-bottom: 1%
+}
+
+.margenXfit {
+	margin-right: 3%;
+	margin-left: 0;
+}
+
+.margenX {
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+}
+
+.aux-content {
+	background-color: #141414;
+	width: 20%;
+	min-width: 150px;
+}
+
+.borde-principal {
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+}
+
+/*Como no todas las imagenes tienen href es necesario duplicar para que todas se vean igual*/
+.imagen img {
+	margin: 3.5%;
+	width: 168.85px;
+	height: 229.9px;
+	float: left;
+	border: 2px solid #d8dadf;
+	border-radius: 8px;
+}
+
+.imagen a>img {
+	margin: 3.5%;
+	width: 168.85px;
+	height: 229.9px;
+	border: 2px solid #d8dadf;
+	border-radius: 8px;
+}
+
+.imagen img:hover {
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+	filter: brightness(30%);
+}
+
+.imagen a>img:hover {
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+	filter: brightness(30%);
+}
+
+
+
+/*Evento*/
+
+b {
+	color: #999999;
+}
+
+
+.div-evento {
+	background-color: #141414;
+	height: fit-content;
+	width: auto;
+	max-width: 60%;
+	min-width: 400px;
+	vertical-align: middle;
+}
+
+.imagen-evento img{
+	width: 169px;
+	height: 230px;
+	border: 2px solid black;
+	margin: 7px;
+	float: right;
+	position: relative;
+	object-fit: cover;
+}
+
+
+/*.imagen-galeria img{
+	margin: 3.5%;
+	width: 168.85px;
+	height: 229.9px;
+	float: left;
+	border: 2px solid #d8dadf;
+	border-radius: 8px;
+}*/
+
+.ficha {
+	width: 20%;
+	margin-top: 5%;
+	margin-left: 0;
+	margin-right: 0;
+
+}
+
+.icon-printer {
+	width: 40px;
+	height: 40px;
+	filter: brightness(43%);
+}
+
+.hiperenlance a:hover{
+	text-decoration: underline;
+	font-size: 101%;
+}
+
+/*Galeria*/
+.imagen-galeria img {
+	margin: 3.5%;
+	width: 128px;
+	height: 177px;
+	float: left;
+	border: 2px solid black;
+}
+
+/*Login*/
+
+
+
+
+
+
+
+/*Para el pie de pagina*/
+footer {
+	border-top: 1px solid #15191f;
+	padding: 1.5%;
+	padding-top: 3%;
+	height: 200px;
+	width: 97%;
+	color: #999999;
+	font-size: 13px;
+	display: table;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.social-icons {
+	filter: invert(85%);
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	margin: 15px;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.social-icons:hover {
+	width: 65px;
+	height: 65px;
+	margin: 12.5px;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+
+
+
+
+
+

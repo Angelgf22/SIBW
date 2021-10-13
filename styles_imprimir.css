@@ -1,0 +1,76 @@
+.div-evento {
+	height: fit-content;
+	width: 700px;
+	max-width: 60%;
+	min-width: 300px;
+	display: inline-flexbox;
+	vertical-align: middle;
+}
+
+body {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: white;
+	height: 100%;
+}
+
+.container {
+	display: inline-flex;	
+}
+
+.agrupa {
+	margin: auto;
+}
+
+.center {
+	display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-title {
+	text-align: center;
+}
+
+.margenY {
+	margin-top: 1%;
+	margin-bottom: 1%
+}
+
+.margenX {
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+} 
+
+.imagen img{
+	width: 169px;
+	height: 230px;
+	border: 2px solid black;
+	margin: 7px;
+	float: right;
+	object-fit: cover;
+	margin-top: 70%;
+}
+
+.logo {
+	width: 38.5px;
+	height: 61.5px;
+	filter: invert(100%);
+    padding-bottom: 40px;
+}
+
+.ficha {
+	width: 20%; 
+}
+
+footer {
+	padding: 1.5%;
+	padding-top: 3%;
+	height: 100px;
+	color: black;
+	font-size: 13px;
+	display: table;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: auto;
+}
